@@ -11,3 +11,10 @@
     @apply
     text-3xl font-bold md:text-4xl leading-snug
 }
+.blog1{
+    @apply w-80 h-80 rounded-full bg-color-primary-bold overflow-hidden blur-2xl opacity-30 z-10 top-0 -left-5 absolute
+}
+
+.blog2{
+    @apply w-80 h-80 rounded-full bg-color-primary-secondary overflow-hidden blur-2xl opacity-30 z-10 right-0 bottom-10 absolute
+}
